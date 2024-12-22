@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
         }
     }
     MainWindow w;
+    w.setSizeIncrement(500,700);
     w.show();
     return a.exec();
 }
